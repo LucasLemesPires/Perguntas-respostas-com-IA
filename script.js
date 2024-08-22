@@ -6,46 +6,44 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta Principal",
+        enunciado: "Qual método de estudo você prefere para revisar o conteúdo aprendido em sala de aula?",
         alternativas: [
             {
-                texto: "enunciado da pergunta",
-                afirmacao: "afirmação dependendo da pergunta"
+                texto: "Revisar os materiais da aula (anotações, slides, livros).",
+                afirmacao: "Você prefere um metodo de estudo mais classico e tradicional."
             },
             {
-                texto: "Texto 2",
-                afirmacao: "Afirmação 2"
+                texto: "Assistir a vídeos e fazer exercícios práticos.",
+                afirmacao: "Você prefere usar de todo o material disponivel, como videos e exercicios online, abranjendo suas possibilidades."
             }
         ]
     },
     {
-        enunciado: "Enunciado 2",
+        enunciado: "Durante o estudo, como você prefere organizar seu tempo?",
         alternativas: [
             {
-                texto: "texto botão 1",
-                afirmacao: "Afirmação do texto botão 2"
+                texto: "Estudar continuamente por longos períodos, com pausas espaçadas.",
+                afirmacao: "Você prefere fazer estudos comtinuos com pausas regulares para fixar e compreender os conteudos."
             },
             {
-                texto: "texto botão 2",
-                afirmacao: "Afirmação do texto botão 2"
+                texto: "Estudar em blocos curtos e intensos, com pausas frequentes.",
+                afirmacao: "Você prefere fazer revisões intensas e frequentes para melhor fixação acompanhado de pausas frequentes para que crie uma importância da informação."
             }
         ]
     },
     {
-        enunciado: "Enunciado 3",
+        enunciado: "Em relação ao ambiente de estudo, o que você considera mais importante?",
         alternativas: [
             {
-                texto: "texto botão 1",
-                afirmacao: "Afirmação do texto botão 1"
+                texto: "Estar em um local silencioso, sem distrações.",
+                afirmacao: "Você prefere ter um ambiem com que possa se comcentrar completamente."
             },
             {
-                texto: "texto botão 2",
-                afirmacao: "Afirmação do texto botão 2"
+                texto: "Ter música ou algum ruído de fundo para manter a concentração.",
+                afirmacao: "Você se sente mais comfortavel com uma musica de sua preferencia e se comcentra mais mesmo com esse ruido."
             }
         ]
-    },
-    {
-},
+    }, {},
    
 ];
 
